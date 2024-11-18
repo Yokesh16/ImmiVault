@@ -20,9 +20,9 @@ import base.Base;
 
 public class Utility extends Base {
 
-	public static void isDisplayed(WebElement element) {
+	public static boolean isDisplayed(WebElement element) {
 
-		element.isDisplayed();
+		return element.isDisplayed();
 	}
 
 	public static String dateFormat1 = "dd.MMM.yyyy";
